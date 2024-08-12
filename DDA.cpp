@@ -52,12 +52,4 @@ main(){
 
 	getch();
 	closegraph();
-
-	
-
-
-	
-   
-
-
 }
