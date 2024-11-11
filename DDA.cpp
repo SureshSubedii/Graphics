@@ -1,6 +1,7 @@
 #include<stdio.h>
-#include<graphics.h>
+#include<graphics.h>	
 #include<math.h>
+
  int round(float num);
 
 round(float num){
@@ -8,7 +9,7 @@ round(float num){
 }
 main(){
 	int gd=DETECT,gm; //graphics driver and graphic mode
-	initgraph(&gd, &gm, "D:/Program Files/Dev-Cpp/BGI");
+initgraph(&gd, &gm, (char*)"D://files//Dev-Cpp//BGI");
 	int x1,y1,x2,y2,steps,k;
 	float x,y, dy, dx, xincr, yincr;
 
